@@ -1,0 +1,16 @@
+.flex-dad {
+  display: flex;
+  align-items: center;
+}
+
+.header-class {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+}
+
+
+.li-class {
+  list-style: none;
+  text-align: center;
+}
