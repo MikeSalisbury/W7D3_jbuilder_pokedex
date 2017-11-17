@@ -1,16 +1,137 @@
 .flex-dad {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .header-class {
   position: fixed;
   left: 0px;
   right: 0px;
+  top: 0px;
 }
 
 
 .li-class {
+  display: inline-block;
   list-style: none;
   text-align: center;
+}
+
+.poke-img-box {
+  width: 150px;
+  height: 150px;
+}
+
+.index-item-img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.detail-div {
+  position: fixed;
+  right: 0px;
+  top: 63px;
+  left: 240px;
+  bottom: 0px;
+  border-left: 1px solid #999;
+}
+
+.detail-img-div {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  bottom: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-a {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.move-span {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.detail-info {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #222;
+  border-top: 1px solid #999;
+  box-sizing: border-box;
+}
+
+.more-info {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.detail-items {
+  padding: 30px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  height: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #999;
+  box-sizing: border-box;
+}
+
+h2, h3 {
+  margin: 3px;
+}
+
+.image-border {
+  border: 1px solid #999;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: #eaeaea;
+}
+
+.index-item-link {
+  border-bottom: 1px solid #999;
+  border-right: 1px solid #eaeaea;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+
+
+.info-words {
+  border-bottom: 1px solid #999;
+  border-right: 1px solid #eaeaea;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #eaeaea;
+  padding: 6px;
+}
+
+
+.index-item-link:hover {
+  background-color: #eaeaea;
 }
